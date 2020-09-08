@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(16, auto);
+    grid-template-rows: repeat(16, auto);
+    border: 1px solid black;
+    box-shadow: 5px 5px rgba(0, 0, 0, 1);
+    height: 500px;
+    width: 500px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.buttons {
+    display: flex;
+    width: 500px;
+    position: fixed;
+    justify-content: space-around;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+}
